@@ -4408,6 +4408,7 @@ html .section-jumbotron .section-fullheight {
 .project-list {
   display: flex;
   flex-direction: column;
+  z-index: 10;
 }
 
 .project-list > li {
@@ -6973,7 +6974,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-fixed .rd-navbar-collapse {
   position: fixed;
-  right: 0;
+  left: 0;
   top: 56px;
   z-index: 1079;
   transform: translate3d(0, -10px, 0);
@@ -7106,11 +7107,11 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-fixed-element-1 {
-  right: 0;
+  left: 0;
 }
 
 .rd-navbar-fixed .rd-navbar-fixed-element-2 {
-  right: 46px;
+  left: 46px;
 }
 
 .rd-navbar-fixed.rd-navbar--is-clone {
